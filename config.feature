@@ -1,12 +1,12 @@
             #language: pt
 
             Funcionalidade: Configuração de produto
-            Como cliente da EBAC-SHOP
+            Como cliente da Test-Shop
             Quero configurar o produto de acordo com tamanho e cor
             e escolher a quantidade
             para depois inserir no carrinho
 
-            Contexto: Acesso ao sit da EBAC-SHOP
+            Contexto: Acesso ao sit da Test-Shop
 
             Cenário: configurando produto
             Dado : que eu acesse a aba de compra do sit
@@ -16,7 +16,7 @@
             Então : levar ao carrinho de compra
             
             Cenário: número limite de produto
-            Dado : que eu acesse o EBAC-SHOP
+            Dado : que eu acesse o Test-Shop
             Quando : eu escolher meu <produto>
             E : permitir apenas 10produtos por compra
             Então : deve levar ao carrinho
