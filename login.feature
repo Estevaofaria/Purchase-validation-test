@@ -1,11 +1,11 @@
             #language: pt
 
             Funcionalidade: Tela de cadastro - checkout
-            Como cliente da EBAC-SHOP
+            Como cliente da Test-SHOP
             Quero fazer o login (autentificação na plataforma)
             Para visualizar meus pedidos
 
-            Contexto: Que eu acesse o sit da EBAC-SHOP
+            Contexto: Que eu acesse o sit da Test-SHOP
 
             Cenário: Dados válidos
             Dado : Que eu preencha <e-mail> e <senha>
